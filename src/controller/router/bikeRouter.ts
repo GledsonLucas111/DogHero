@@ -19,5 +19,5 @@ bikeRouter.put("/sell/:id", bikeController.sellBike);
 
 bikeRouter.put("/update/:id", bikeController.changePrice);
 
-bikeRouter.get("", bikeController.getAllBikes);
+bikeRouter.get("/", bikeController.getAllBikes);
 

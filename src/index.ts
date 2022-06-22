@@ -1,12 +1,12 @@
 import dotenv from "dotenv";
 import { AddressInfo } from "net";
-import express from "express";
+import express, {Express} from "express";
 import { bikeRouter } from "./controller/router/bikeRouter";
 import cors from 'cors'
 
 
 dotenv.config();
-const app = express();
+const app: Express = express();
 
 app.use(express.json());
 app.use(cors());
