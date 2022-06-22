@@ -1,10 +1,10 @@
-import knex from "knex";
+import knex, { Knex } from "knex";
 import dotenv from "dotenv";
 
 dotenv.config();
 
 export abstract class BaseDatabase {
-  protected connection = knex({
+  protected static connection = knex({
     client: "mysql",
     connection: {
       host: process.env.DB_HOST,
