@@ -22,6 +22,7 @@
   <img  width="100px" height="30px"  src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" />
   <img  width="100px" height="30px"  src="https://user-images.githubusercontent.com/94838711/164778963-48a3d871-71b3-4c83-b32f-1d06da06805d.png" />
   <img  width="100px" height="30px"  src="https://user-images.githubusercontent.com/94838711/164778854-a9c79e53-5a21-4a6f-928e-e4cedc3ed348.jpeg" />
+  <img  width="100px" height="30px"  src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" />
 </div>
 
 
