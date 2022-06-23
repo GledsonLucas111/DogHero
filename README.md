@@ -3,7 +3,7 @@
 
 # 🚲 ShopBike
 
-<p align="center">Case desenvolvido no processo seletivo da empresa <a href="https://netpark.com.br">empresa NetPark</a>. App simula uma loja de bicicletas<p/>
+<p align="center">Case desenvolvido no processo seletivo da empresa <a href="https://netpark.com.br">NetPark</a>. App simula uma loja de bicicletas<p/>
 
 <br/>
 
