@@ -63,7 +63,7 @@ export class BikeDatabase extends BaseDatabase {
           .where("color", "like", `%${color}%`)
           .orWhere("price", "like", `%${price}%`);
 
-        return result[0];
+        return result as any;
       } else if (!color || !price) {
         const result = await BaseDatabase.connection(BikeDatabase.TABLE_NAME);
         
