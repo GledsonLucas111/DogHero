@@ -31,7 +31,7 @@ export class BikeController {
   sellBike = async (req: Request, res: Response) => {
     try {
       const id = req.params.id;
-      const quantity_stock = req.body.quantity_stock;
+      const quantity_stock = req.body.purchase;
 
       await this.bikeBusiness.sellBike(id, quantity_stock);
 
