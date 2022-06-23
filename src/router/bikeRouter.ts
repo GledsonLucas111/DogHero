@@ -1,8 +1,8 @@
 import express from "express";
-import { BikeBusiness } from "../../business/BikeBusiness";
-import { BikeDatabase } from "../../data/BikeDatabase";
-import { IdGenerator } from "../../services/IdGenerator";
-import { BikeController } from "../BikeController";
+import { BikeBusiness } from "../business/BikeBusiness";
+import { BikeDatabase } from "../data/BikeDatabase";
+import { IdGenerator } from "../services/IdGenerator";
+import { BikeController } from "../controller/BikeController";
 
 export const bikeRouter = express.Router();
 

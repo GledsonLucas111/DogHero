@@ -1,7 +1,7 @@
 import dotenv from "dotenv";
 import { AddressInfo } from "net";
 import express, {Express} from "express";
-import { bikeRouter } from "./controller/router/bikeRouter";
+import { bikeRouter } from "./router/bikeRouter";
 import cors from 'cors'
 
 
