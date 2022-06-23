@@ -1,9 +1,9 @@
-<div align="center"><img width="600px" src="https://user-images.githubusercontent.com/94838711/164776713-b8cc2a9c-7987-4bf6-b272-5387124e803f.jpg" /> 
+<div align="center"><img width="600px" alt="img bike windbreaker" src="https://www.teahub.io/photos/full/354-3547174_windbreaker-webtoon.jpg" /> 
 </div>
 
 # 🚲 ShopBike
 
-<p align="center"> Projeto desenvolvido conforme proposta do bootcamp ministrado pela Labenu baseado em Typescript, MySQL e NodeJS para o desenvolvimento de uma API simulando um sistema que represente o básico da Labenu. <p/>
+<p align="center">Case desenvolvido para empresa NetPark. App simula uma loja de bicicletas<p/>
 
 <br/>
 
