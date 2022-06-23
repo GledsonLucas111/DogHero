@@ -13,7 +13,7 @@ app.use(cors());
 
 app.use("/bike", bikeRouter);
 
-const server = app.listen(process.env.DB_PORT || 3000, () => {
+const server = app.listen(process.env.DB_PORT || 5000, () => {
   if (server) {
     const address = server.address() as AddressInfo;
     console.log(`Server is running in http://localhost:${address.port}`);
