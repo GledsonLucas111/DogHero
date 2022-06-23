@@ -1,7 +1,7 @@
 {
-  "name": "doghero",
+  "name": "shop-bike",
   "version": "1.0.0",
-  "description": "",
+  "description": "loja de bicicletas",
   "main": "index.js",
   "scripts": {
     "test": "jest",
