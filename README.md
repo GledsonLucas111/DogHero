@@ -28,9 +28,9 @@
 ## :heavy_check_mark: O que funciona
 <h3> 🚲 Bicicleta</h3>
 
-* Buscar todas as bicicleta.
-* Filtrar por cor e por preço ou pelos dois.
 * Registrar uma bicicleta.
+* Buscar todas as bicicleta.
+* Filtrar por cor e por preço, ou pelos dois.
 * Vender uma bicicleta.
 * Alterar o preço de uma bicicleta.
   
