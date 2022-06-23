@@ -42,6 +42,5 @@
   <td align="center"><a href="https://github.com/future4code/vaughan-Gledson-Souto"><img style="border-radius: 50%" src="https://user-images.githubusercontent.com/94838711/158081019-60ba355e-131e-4b30-bf9f-c6ab73ea976c.png" width="100px" alt=""/>
  <br />
  <sub><b>Gledson Lucas</b></sub></a> <a href="https://avatars.githubusercontent.com/u/94623630?s=400&u=949c9707bbd90c2e5774ecae995edf5479f320c6&v=4">🧑🏻‍💻</a></td>
-
 </tr>
 </table>
