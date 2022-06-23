@@ -67,7 +67,8 @@ export class BikeController {
       const price = req.query.price;
 
       const result = await this.bikeBusiness.getAllBikes(color, Number(price));
-      res.status(200).send(result);
+
+      res.status(200).send({ products: result });
     } catch (error: any) {
       if (error instanceof CustomError) {
         res.status(error.statusCode).send(error.message);
