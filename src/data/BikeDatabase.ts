@@ -55,18 +55,26 @@ export class BikeDatabase extends BaseDatabase {
     }
   };
 
-  getBikes = async (color: string, price: number): Promise<Bike | undefined> => {
+  getBikes = async (
+    color: string,
+    price: number
+  ): Promise<Bike | undefined> => {
     try {
-      if (color || price) {
+      if (color && price) {
         const result = await BaseDatabase.connection(BikeDatabase.TABLE_NAME)
           .select("*")
           .where("color", "like", `%${color}%`)
-          .orWhere("price", "like", `%${price}%`);
-
+          .andWhere("price", "like", `${price}%`);
+        return result as any;
+      } else if (color || price) {
+        const result = await BaseDatabase.connection(BikeDatabase.TABLE_NAME)
+          .select("*")
+          .where("color", "like", `%${color}%`)
+          .orWhere("price", "like", `${price}%`);
         return result as any;
       } else if (!color || !price) {
         const result = await BaseDatabase.connection(BikeDatabase.TABLE_NAME);
-        
+
         return result as any;
       }
     } catch (error: any) {

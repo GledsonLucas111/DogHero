@@ -9,7 +9,7 @@ export class BikeBusiness {
     private bikeDatabase: BikeDatabase,
     private idGenerator: IdGenerator
   ) {}
-  
+
   registerBike = async (input: BikeInputDTO): Promise<void> => {
     const { color, march, mark, model, price, quantity_stock } = input;
 
@@ -20,9 +20,11 @@ export class BikeBusiness {
       );
     }
     if (typeof price !== "number" || typeof quantity_stock !== "number") {
-      throw new CustomError(409, "'price' ou 'quantity_stock' precisa ser um numero.");
+      throw new CustomError(
+        409,
+        "'price' ou 'quantity_stock' precisa ser um numero."
+      );
     }
-    
 
     const id = this.idGenerator.generateId();
 
@@ -50,7 +52,7 @@ export class BikeBusiness {
       throw new CustomError(409, "Quantity_stock precisa ser um numero.");
     }
     const findId = await this.bikeDatabase.findById(id);
-    if(!findId) {
+    if (!findId) {
       throw new CustomError(404, "Bicicleta não encontrada.");
     }
 
@@ -68,7 +70,7 @@ export class BikeBusiness {
       throw new CustomError(409, "Preço precisa ser um numero.");
     }
     const findId = await this.bikeDatabase.findById(id);
-    if(!findId) {
+    if (!findId) {
       throw new Error("Bicicleta não encontrada.");
     }
 
@@ -76,13 +78,12 @@ export class BikeBusiness {
   };
 
   getAllBikes = async (color: string, price: number): Promise<Bike> => {
-    
-    const result = await this.bikeDatabase.getBikes(color, price);
-    console.log(result);
+    const result: any = await this.bikeDatabase.getBikes(color, price);
 
-    if (!result) {
+    if (result.length === 0) {
       throw new CustomError(404, "Nenhuma bicicleta encontrada.");
     }
+
     return result;
   };
 }
