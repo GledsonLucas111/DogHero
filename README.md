@@ -34,16 +34,6 @@
 * Vender uma bicicleta.
 * Alterar o preço de uma bicicleta.
   
-<h2 >👷🏼‍♂️ Desenvolvedor</h2>
-
-<table> 
-<tr>
- 
-  <td align="center"><a href="https://github.com/future4code/vaughan-Gledson-Souto"><img style="border-radius: 50%" src="https://avatars.githubusercontent.com/u/94623630?s=400&u=949c9707bbd90c2e5774ecae995edf5479f320c6&v=4" width="100px" alt=""/>
- <br />
- <b>Gledson Lucas</b></a> <a href="https://github.com/GledsonLucas111">🧑🏻‍💻</a></td>
-</tr>
-</table>
 
 <h2> Inicializar projeto na sua maquina</h2>
 ```bash
@@ -56,3 +46,15 @@ $ npm run migrations
 # Run Back-end
 $ npm run dev
 ```
+
+<h2 >👷🏼‍♂️ Desenvolvedor</h2>
+
+<table> 
+<tr>
+ 
+  <td align="center"><a href="https://github.com/future4code/vaughan-Gledson-Souto"><img style="border-radius: 50%" src="https://avatars.githubusercontent.com/u/94623630?s=400&u=949c9707bbd90c2e5774ecae995edf5479f320c6&v=4" width="100px" alt=""/>
+ <br />
+ <b>Gledson Lucas</b></a> <a href="https://github.com/GledsonLucas111">🧑🏻‍💻</a></td>
+</tr>
+</table>
+
