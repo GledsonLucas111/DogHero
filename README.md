@@ -35,7 +35,7 @@
 * Alterar o preço de uma bicicleta.
   
 
-<h2> Inicializar projeto na sua maquina</h2>
+## Inicializar projeto
 ```bash
 # Install packages
 $ npm install
