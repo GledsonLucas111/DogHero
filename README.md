@@ -26,8 +26,7 @@
 </div>
 
 
-## :heavy_check_mark: O que funciona
-<h3> 🚲 Bicicleta</h3>
+## :heavy_check_mark: Rotas
 
 * Registrar uma bicicleta.
 * Buscar todas as bicicleta.
@@ -45,3 +44,15 @@
  <b>Gledson Lucas</b></a> <a href="https://github.com/GledsonLucas111">🧑🏻‍💻</a></td>
 </tr>
 </table>
+
+<h2> Inicializar projeto na sua maquina</h2>
+```bash
+# Install packages
+$ npm install
+
+# Migrations
+$ npm run migrations
+
+# Run Back-end
+$ npm run dev
+```
