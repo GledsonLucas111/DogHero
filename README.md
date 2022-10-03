@@ -7,10 +7,9 @@
 
 <br/>
 
-## :link: Link da Documentação da API</h2>
+## :link: Links</h2>
  <a href="https://documenter.getpostman.com/view/19298430/UzBqnjnP">Documentação Postman</a>
  
-## :link: Link da API no Heroku</h2>
  <a href="https://shop-bike.herokuapp.com">API</a>
  
 ## 🛠 Tecnologias e Ferramentas Utilizadas</h2>
